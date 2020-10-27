@@ -44,4 +44,14 @@ public class StringData {
     public void setSpecialCharacters(int specialCharacters) {
         this.specialCharacters = specialCharacters;
     }
+
+    @Override
+    public String toString() {
+        return "StringData{" +
+                "lowerCase=" + lowerCase +
+                ", upperCase=" + upperCase +
+                ", numbers=" + numbers +
+                ", specialCharacters=" + specialCharacters +
+                '}';
+    }
 }
